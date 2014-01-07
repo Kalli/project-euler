@@ -11,7 +11,7 @@ import math
 
 def isPrime(n):
   prime=True
-  if n==1: prime = True
+  if n==1: prime = False
   if n==2: prime = True
   if n%2==0: prime = False
   else:
